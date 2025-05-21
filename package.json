@@ -13,12 +13,20 @@
     "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/eb6781d2-a092-458b-772c-97b1cdaaf700/public"
   },
   "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-slot": "^1.2.3",
     "@remix-run/cloudflare": "2.15.2",
     "@remix-run/react": "2.15.2",
     "@remix-run/server-runtime": "2.15.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "isbot": "5.1.17",
+    "lucide-react": "^0.511.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "remix-themes": "^2.0.4",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250204.0",
