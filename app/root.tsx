@@ -5,7 +5,6 @@ import { themeSessionResolver } from "./sessions.server"
 
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
@@ -67,7 +66,6 @@ export function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
       </body>
     </html>
   )

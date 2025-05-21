@@ -32,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className="flex flex-col md:flex-row gap-5 mb-10">
       {/* Project Image (takes full width on mobile, fixed width on desktop) */}
-      <div className="w-full md:w-48 md:h-36 flex-shrink-0">
+      <div className="w-full md:w-36 md:h-36 flex-shrink-0">
         <Link 
           to={projectUrl} 
           target={isExternalLink ? "_blank" : undefined} 

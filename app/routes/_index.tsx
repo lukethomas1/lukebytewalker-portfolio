@@ -44,11 +44,11 @@ export default function Index() {
 
         <div className="md:col-start-2 md:row-start-2 md:row-span-2 lg:col-start-3">
           <Projects />
-        </div>
-
-        <div className="md:col-start-2 lg:col-start-3">
           <Availability />
         </div>
+
+        {/* <div className="md:col-start-2 md:row-start-4 lg:col-start-3">
+        </div> */}
 
         {/* Footer - spans full width */}
         <div className="col-span-full">
