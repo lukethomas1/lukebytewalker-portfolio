@@ -1,5 +1,8 @@
-import React from 'react';
 import ProjectCard from '~/components/ProjectCard';
+
+import gluttonyImage from "/images/projects/gluttony.png";
+import sand2Image from "/images/projects/sand2_256p.png";
+
 export default function Projects() {
   return (
     <section className="flex flex-col justify-center p-5 py-12 text-gray-300 rounded-md shadow-sm ">
@@ -12,7 +15,7 @@ export default function Projects() {
         <ProjectCard
           title="Gluttony"
           description="Godot game written in GDScript, connects to Firebase for leaderboard integration. Used open-source Krita to create textures."
-          imageUrl="/public/images/projects/gluttony.png"
+          imageUrl={gluttonyImage}
           projectUrl="https://lukebytewalker.com/projects/gluttony"
           technologies={[
             { name: "Godot", url: "https://reactjs.org" },
@@ -24,7 +27,7 @@ export default function Projects() {
         <ProjectCard
           title="krita-tilemaps"
           description="Krita plugin for creating symmetrical tilemaps, written in Python. Edit only 5 tiles to have a completed tilemap."
-          imageUrl="/public/images/projects/sand2_256p.png"
+          imageUrl={sand2Image}
           projectUrl="https://example.com/spotify-profile"
           technologies={[
             { name: "Python", url: "https://reactjs.org" },
