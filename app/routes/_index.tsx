@@ -7,6 +7,7 @@ import Education from "~/components/sections/Education";
 import WorkExperience from "~/components/sections/WorkExperience";
 import Projects from "~/components/sections/Projects";
 import Availability from "~/components/sections/Availability";
+import { SocialLinks } from "~/components/sections/SocialLinks";
 
 export const meta: MetaFunction = () => {
   return [
@@ -44,6 +45,10 @@ export default function Index() {
 
         <div className="md:col-start-2 md:row-start-2 md:row-span-2 lg:col-start-3">
           <Projects />
+        </div>
+
+        <div className="hidden md:block">
+          <SocialLinks />
         </div>
 
         <div className="md:col-start-2 md:row-start-4 lg:col-start-3">
