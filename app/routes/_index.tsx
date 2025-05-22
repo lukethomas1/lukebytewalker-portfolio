@@ -37,14 +37,13 @@ export default function Index() {
         </div>
 
         <div className="lg:col-start-2">
-          <Link to="/resume" className="text-[#64ffda] hover:text-[#64ffda]/80 transition-colors">
+          <a href="/LukeThomasMay2025.pdf" className="text-[#64ffda] hover:text-[#64ffda]/80 transition-colors">
             View Full Résumé
-          </Link>
+          </a>
         </div>
 
         <div className="md:col-start-2 md:row-start-2 md:row-span-2 lg:col-start-3">
           <Projects />
-          <Availability />
         </div>
 
         <div className="md:col-start-2 md:row-start-4 lg:col-start-3">

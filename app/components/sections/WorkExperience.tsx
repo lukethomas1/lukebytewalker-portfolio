@@ -75,7 +75,6 @@ export default function WorkExperience() {
   return (
     <section className="p-5 text-gray-300 rounded-md shadow-sm h-[calc(30vh)] sm:h-[calc(33vh)] md:h-[calc(36vh)] lg:h-[calc(40vh)] overflow-hidden">
       <h2 className="text-lg font-semibold mb-3 text-white">
-        <span className="text-[#64ffda] font-mono text-base mr-2">01.</span>
         Where I've Worked
       </h2>
       
