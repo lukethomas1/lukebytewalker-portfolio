@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from '~/components/ProjectCard';
 export default function Projects() {
   return (
-    <section className="flex flex-col justify-center p-5 text-gray-300 rounded-md shadow-sm h-full ">
+    <section className="flex flex-col justify-center p-5 py-12 text-gray-300 rounded-md shadow-sm ">
       <h2 className="text-xl font-bold mb-6 text-white">
         <span className="text-[#64ffda] font-mono text-base mr-2">03.</span>
         Featured Projects

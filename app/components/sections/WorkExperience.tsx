@@ -12,7 +12,7 @@ const workExperience = [
     responsibilities: [
       "Led our team's region-expansion efforts for classified data centers, involving contracts worth billions of dollars",
       "Developed within an 8+ microservice architecture using Apache Spark, AWS Lambda, DynamoDB, S3, and other services to aggregate petabytes of AWS billing data",
-      "Optimized system inefficiency resulting in over $45k/month infrastructure cost reduction",
+      "Optimized system inefficiencies resulting in over $45k/month infrastructure cost reduction",
       "Mentored interns and new-hires, and authored technical documents that led to multiple high-value deliverables"
     ]
   },

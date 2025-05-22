@@ -17,7 +17,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="h-screen p-4 ">
+    <div className="h-screen p-4 lg:overflow-hidden">
       <div className="grid h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_4fr_4fr_1fr] lg:grid-rows-[auto_1fr_1fr_1fr_auto] gap-4 lg:gap-8 p-8">
         {/* Header - spans full width */}
         <div className="col-span-full">
@@ -47,8 +47,8 @@ export default function Index() {
           <Availability />
         </div>
 
-        {/* <div className="md:col-start-2 md:row-start-4 lg:col-start-3">
-        </div> */}
+        <div className="md:col-start-2 md:row-start-4 lg:col-start-3">
+        </div>
 
         {/* Footer - spans full width */}
         <div className="col-span-full">
