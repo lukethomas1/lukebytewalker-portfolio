@@ -73,8 +73,8 @@ export default function WorkExperience() {
   const activeJob = workExperience.find(job => job.id === activeTab) || workExperience[0];
 
   return (
-    <section className="p-5 text-gray-300 rounded-md shadow-sm h-[calc(30vh)] sm:h-[calc(33vh)] md:h-[calc(36vh)] lg:h-[calc(40vh)] overflow-hidden">
-      <h2 className="text-lg font-semibold mb-3 text-white">
+    <section className="p-5 text-primary rounded-md shadow-sm h-[calc(30vh)] sm:h-[calc(33vh)] md:h-[calc(36vh)] lg:h-[calc(40vh)] overflow-hidden">
+      <h2 className="text-lg font-semibold mb-3">
         Where I've Worked
       </h2>
       
@@ -90,16 +90,10 @@ export default function WorkExperience() {
               className={cn(
                 "px-3 py-2 text-sm font-medium whitespace-nowrap text-left transition-all relative",
                 activeTab === job.id
-                  ? "text-[#64ffda]"
-                  : "text-gray-400 hover:text-gray-200 hover:bg-gray-800/30"
+                  ? "text-emerald-400 dark:text-[#64ffda] bg-slate-100 dark:bg-gray-800/50"
+                  : "text-secondary hover:text-secondary/80 hover:bg-slate-100 dark:hover:bg-gray-700/50"
               )}
             >
-              <span className={cn(
-                "absolute sm:left-0 sm:h-full h-[2px] sm:w-[2px] w-full bottom-0 sm:bottom-auto",
-                activeTab === job.id
-                  ? "bg-[#64ffda]"
-                  : "bg-transparent"
-              )} />
               {job.company}
             </button>
           ))}
@@ -108,8 +102,8 @@ export default function WorkExperience() {
 
         {/* Content */}
         <div className="py-1 flex-1 overflow-y-auto">
-          <h3 className="text-base font-semibold text-white mb-1">
-            {activeJob.title} <span className="text-[#64ffda]">@ {activeJob.company}</span>
+          <h3 className="text-base font-semibold text-primary mb-1">
+            {activeJob.title} <span className="text-emerald-400 dark:text-[$64ffda]">@ {activeJob.company}</span>
           </h3>
           <p className="text-gray-400 text-xs mb-1">{activeJob.period}</p>
           <p className="text-gray-400 text-xs mb-2">{activeJob.location}</p>
@@ -117,8 +111,8 @@ export default function WorkExperience() {
           <ul className="space-y-2">
             {activeJob.responsibilities.map((responsibility, index) => (
               <li key={index} className="flex text-sm">
-                <span className="text-[#64ffda] mr-2 flex-shrink-0">▹</span>
-                <span>{responsibility}</span>
+                <span className="text-primary mr-2 flex-shrink-0">▹</span>
+                <span className="text-secondary">{responsibility}</span>
               </li>
             ))}
           </ul>

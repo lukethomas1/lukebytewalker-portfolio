@@ -6,7 +6,6 @@ import About from "~/components/sections/About";
 import Education from "~/components/sections/Education";
 import WorkExperience from "~/components/sections/WorkExperience";
 import Projects from "~/components/sections/Projects";
-import Availability from "~/components/sections/Availability";
 import { SocialLinks } from "~/components/sections/SocialLinks";
 
 export const meta: MetaFunction = () => {
@@ -38,7 +37,7 @@ export default function Index() {
         </div>
 
         <div className="lg:col-start-2">
-          <a href="/LukeThomasMay2025.pdf" className="text-[#64ffda] hover:text-[#64ffda]/80 transition-colors">
+          <a href="/LukeThomasMay2025.pdf" className="text-emerald-500 hover:text-emerald-800 dark:text-[#64ffda] dark:hover:text-[#64ffda]/80 transition-colors">
             View Full Résumé
           </a>
         </div>
@@ -49,14 +48,6 @@ export default function Index() {
 
         <div className="hidden md:block">
           <SocialLinks />
-        </div>
-
-        <div className="md:col-start-2 md:row-start-4 lg:col-start-3">
-        </div>
-
-        {/* Footer - spans full width */}
-        <div className="col-span-full">
-          <Footer />
         </div>
       </div>
     </div>

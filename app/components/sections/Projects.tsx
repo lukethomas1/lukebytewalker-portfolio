@@ -6,8 +6,8 @@ import hightideImage from "/images/projects/hightide.png";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col justify-center p-5 py-12 text-gray-300 rounded-md shadow-sm ">
-      <h2 className="text-xl font-bold mb-6 text-white">
+    <section className="flex flex-col justify-center p-5 py-12 text-primary rounded-md shadow-sm ">
+      <h2 className="text-xl font-bold mb-6">
         Featured Projects
       </h2>
       

@@ -56,7 +56,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             rel={isExternalLink ? "noopener noreferrer" : undefined}
             className="group flex items-center"
           >
-            <h3 className="text-xl font-semibold text-gray-200 group-hover:text-[#64ffda] transition-colors">
+            <h3 className="text-xl font-semibold text-primary/80 group-hover:text-[#64ffda] transition-colors">
               {title}
             </h3>
             
@@ -74,7 +74,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </Link>
         </div>
         
-        <p className="text-gray-400 text-sm mb-3">{description}</p>
+        <p className="text-secondary text-sm mb-3">{description}</p>
         
         {/* Stats (stars, installs, etc.) */}
         {stats && (
